@@ -36,8 +36,11 @@ python netpeek.py '<命令>'
 ## 示例
 
 python netpeek.py 'curl https://httpbin.org/get'
+
 python netpeek.py -v 'wget -q -O- https://example.com'
+
 python netpeek.py -o result.json 'python3 my_script.py'
+
 python netpeek.py '/Applications/MyApp.app/Contents/MacOS/MyApp --update'
 
 ## 注意事项
